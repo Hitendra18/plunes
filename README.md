@@ -8,10 +8,10 @@
 
 1.  **Clone the Repository**
     Copy code
-    `bash
-    git clone https://github.com/Hitendra18/plunes 
+    ```bash
+    git clone https://github.com/Hitendra18/plunes
     cd plunes
-    `
+    ```
 2.  **Set Up Environment Variables**
     - Create a `.env` file in both the `/backend` and `/frontend` directories.
     - Populate them with the necessary environment variables. Refer to the `.env.example` files for structure and required variables.
