@@ -16,14 +16,7 @@ export default function AuthLayout() {
   const isSignupPage = location.pathname.includes("signup");
 
   return (
-    <div
-      className="flex items-center h-screen"
-      style={{
-        backgroundImage: `url(${images.BgVector})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className="flex items-center h-screen bg-[url('/bg.png')] bg-cover bg-center">
       <div className="w-full max-w-[1280px] mx-auto px-20 flex items-center gap-20 justify-between h-screen max-h-[1200px] overflow-hidden">
         {/* Illustration and Logo  */}
         <div className="space-y-8 hidden md:block">
