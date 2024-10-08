@@ -1,11 +1,11 @@
 import Logo from "../assets/logo.png";
 import Illustration from "../assets/illustration.svg";
-import BgVector from "../assets/bgvector.svg";
+import bgvector from "../assets/bgvector.svg";
 
 const images = {
   Logo,
   Illustration,
-  BgVector,
+  BgVector: bgvector,
 };
 
 export default images;
